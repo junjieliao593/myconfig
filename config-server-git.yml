@@ -1,3 +1,9 @@
+﻿info:
+  profile: default
+  from: git
+  
+test: ccc
+
 # routes to serviceId
 zuul：
 	routes：
@@ -6,5 +12,5 @@ zuul：
 			serviceId：service-A
 
 		api-b：
-      path=/api-b/**
+      			path：/api-b/**
 			serviceId：service-B
